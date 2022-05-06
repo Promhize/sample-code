@@ -1,0 +1,44 @@
+{
+  "name": "shop-mgmt-web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
+    "briph-sdk": "*",
+    "localforage": "^1.10.0",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.0.0-rc.3",
+    "react-dom": "^18.0.0-rc.3",
+    "react-hook-form": "^7.28.1",
+    "react-hooks-compose": "^2.0.18",
+    "react-query": "^3.35.0",
+    "react-redux": "^8.0.0-beta.1",
+    "react-router-dom": "^6.2.2",
+    "redux": "^5.0.0-alpha.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "reduxjs-toolkit-persist": "^7.2.1",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/redux-logger": "^3.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "^8.12.0",
+    "eslint-config-xo": "^0.40.0",
+    "eslint-plugin-react": "^7.29.4",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vite-plugin-checker": "^0.4.4"
+  }
+}
